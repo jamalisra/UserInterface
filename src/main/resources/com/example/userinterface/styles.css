@@ -1,0 +1,83 @@
+
+BorderPane {
+    -fx-background-color: #39FF14;
+}
+
+#left {
+    -fx-background-color: #B8860B;
+}
+
+
+MenuBar {
+    -fx-background-color: #8B4513;
+    -fx-text-fill: white;
+}
+
+
+Menu, MenuItem {
+    -fx-background-color: #8B4513;
+    -fx-text-fill: white;
+}
+
+
+
+TableView {
+    -fx-background-color: white;
+}
+
+TableView {
+    -fx-pref-width: 500;
+}
+
+
+
+TableColumn {
+    -fx-alignment: CENTER;
+    -fx-font-size: 14px;
+    -fx-background-color: #808080;
+    -fx-text-fill: white;
+
+}
+
+#idColumn .label,
+#firstNameColumn .label,
+#lastNameColumn .label,
+#departmentColumn .label,
+#majorColumn .label,
+#emailColumn .label {
+    -fx-background-color: #A9A9A9;
+    -fx-text-fill: white;
+}
+
+
+
+VBox {
+    -fx-spacing: 20;
+    -fx-padding: 10;
+
+}
+
+
+ImageView {
+    -fx-border-color: #333;
+    -fx-border-width: 2;
+}
+
+
+TextField {
+    -fx-prompt-text-fill: #808080;
+    -fx-font-size: 14px;
+    -fx-background-color: white;
+    -fx-min-width: 210px;
+
+}
+
+
+Button {
+    -fx-background-color: #B8860B;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    -fx-min-width: 195px;
+    -fx-padding: 10px 20px;
+}
+
